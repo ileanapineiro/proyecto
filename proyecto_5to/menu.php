@@ -80,10 +80,9 @@
 		<nav id="menu">
 			<ul>
 				<li>
-					<a href="#">Sucursales</a>
+					<a href="#">Perfil</a>
 					<ul>
-						<li><a href="sucursales_alta.php">Alta</a></li>
-						<li><a href="sucursales_listado.php">Listado</a></li>
+						<li><a href="Subir_archivos.php">Alta</a></li>
 					</ul>
 				</li>
 				<li>
