@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+		<title> Bienvenidos </title>
+		
+</head>
+
+	<h1> Registrarse  iniciar</h1>
+	
+	<a href="Login2.php"> Login</a> or
+	<a href= "Registrarse.php">Registarse</a>
+</body>
+</html>
