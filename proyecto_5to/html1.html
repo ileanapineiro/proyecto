@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+		<title> Registro </title>
+		
+</head>
+
+	<h1> Bienvenidos </h1>
+	
+
+<body>
+<form action="Registrar.php" method="POST"">
+    <table>
+        <tr>
+		
+			<td> User </td>
+			
+			<td><input type="text" name="user" placeholder = "Nombre"> </td>
+			
+            <td>clave:</td>
+            <td><input type="password"  name="pas" placeholder = "pass"></td> 
+        </tr>
+        <tr>
+            <td>email:</td>
+            <td><input type="text" name="email"></td>
+        </tr>
+		
+	
+        <tr>
+            <td colspan="2"><input type="submit"></td>
+        </tr>
+	
+        <tr>
+            <td colspan="2"><?php echo $error; ?></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
