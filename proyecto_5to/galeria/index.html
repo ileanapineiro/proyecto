@@ -1,0 +1,66 @@
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <script src="./js/registro.js"></script>
+  <script src="./js/login.js"></script>
+</head>
+<body>
+  <button class="btn btn-primary" data-toggle="modal" data-target="#registro">
+    Registro
+  </button>
+  <button class="btn btn-primary" data-toggle="modal" data-target="#login">
+    Login
+  </button>
+  <div id="out"></div>
+
+  <div
+    class="modal fade"
+    id="registro"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>REGISTRO</h1>
+        </div>
+        <div class="modal-body">
+          <input placeholder="usuario" id="regUsuario"></input><br><br>
+          <input placeholder="clave" type="password" id="regClave"></input>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" id="enviarRegistro">Registrarme</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="modal fade"
+    id="login"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>LOGIN</h1>
+        </div>
+        <div class="modal-body">
+          <input placeholder="usuario" id="loginUsuario"></input><br><br>
+          <input placeholder="clave" type="password" id="loginClave"></input>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" id="enviarLogin">Logearme</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

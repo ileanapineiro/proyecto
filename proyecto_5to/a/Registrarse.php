@@ -1,5 +1,5 @@
 <?php
-require_once "conexion1.php";
+require_once "conexion.php";
 
 //Si los campos estan vacios se agregan a la base de datos
 
